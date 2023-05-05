@@ -1,0 +1,14 @@
+C:\Users\AdemYildirim\source\repos\EasyCashIdentityPrject\EasyCashIdentityPrjectEntityLayer\bin\Debug\net6.0\EasyCashIdentityProject.EntityLayer.deps.json
+C:\Users\AdemYildirim\source\repos\EasyCashIdentityPrject\EasyCashIdentityPrjectEntityLayer\bin\Debug\net6.0\EasyCashIdentityProject.EntityLayer.runtimeconfig.json
+C:\Users\AdemYildirim\source\repos\EasyCashIdentityPrject\EasyCashIdentityPrjectEntityLayer\bin\Debug\net6.0\EasyCashIdentityProject.EntityLayer.dll
+C:\Users\AdemYildirim\source\repos\EasyCashIdentityPrject\EasyCashIdentityPrjectEntityLayer\bin\Debug\net6.0\EasyCashIdentityProject.EntityLayer.pdb
+C:\Users\AdemYildirim\source\repos\EasyCashIdentityPrject\EasyCashIdentityPrjectEntityLayer\obj\Debug\net6.0\EasyCashIdentityProject.EntityLayer.csproj.AssemblyReference.cache
+C:\Users\AdemYildirim\source\repos\EasyCashIdentityPrject\EasyCashIdentityPrjectEntityLayer\obj\Debug\net6.0\EasyCashIdentityProject.EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AdemYildirim\source\repos\EasyCashIdentityPrject\EasyCashIdentityPrjectEntityLayer\obj\Debug\net6.0\EasyCashIdentityProject.EntityLayer.AssemblyInfoInputs.cache
+C:\Users\AdemYildirim\source\repos\EasyCashIdentityPrject\EasyCashIdentityPrjectEntityLayer\obj\Debug\net6.0\EasyCashIdentityProject.EntityLayer.AssemblyInfo.cs
+C:\Users\AdemYildirim\source\repos\EasyCashIdentityPrject\EasyCashIdentityPrjectEntityLayer\obj\Debug\net6.0\EasyCashIdentityProject.EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\AdemYildirim\source\repos\EasyCashIdentityPrject\EasyCashIdentityPrjectEntityLayer\obj\Debug\net6.0\EasyCashIdentityProject.EntityLayer.dll
+C:\Users\AdemYildirim\source\repos\EasyCashIdentityPrject\EasyCashIdentityPrjectEntityLayer\obj\Debug\net6.0\refint\EasyCashIdentityProject.EntityLayer.dll
+C:\Users\AdemYildirim\source\repos\EasyCashIdentityPrject\EasyCashIdentityPrjectEntityLayer\obj\Debug\net6.0\EasyCashIdentityProject.EntityLayer.pdb
+C:\Users\AdemYildirim\source\repos\EasyCashIdentityPrject\EasyCashIdentityPrjectEntityLayer\obj\Debug\net6.0\EasyCashIdentityProject.EntityLayer.genruntimeconfig.cache
+C:\Users\AdemYildirim\source\repos\EasyCashIdentityPrject\EasyCashIdentityPrjectEntityLayer\obj\Debug\net6.0\ref\EasyCashIdentityProject.EntityLayer.dll
