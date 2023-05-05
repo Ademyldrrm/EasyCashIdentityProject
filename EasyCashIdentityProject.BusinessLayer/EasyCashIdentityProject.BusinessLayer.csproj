@@ -24,8 +24,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\EasyCashIdentityPrject.DtoLayer\EasyCashIdentityPrject.DtoLayer.csproj" />
-    <ProjectReference Include="..\EasyCashIdentityPrjectDAtaAccessProjectLayer\EasyCashIdentityPrject.DataAccessLayer.csproj" />
+    <ProjectReference Include="..\EasyCashIdentityPrject.DtoLayer\EasyCashIdentityProject.DtoLayer.csproj" />
+    <ProjectReference Include="..\EasyCashIdentityPrjectDAtaAccessProjectLayer\EasyCashIdentityProject.DataAccessLayer.csproj" />
     <ProjectReference Include="..\EasyCashIdentityPrjectEntityLayer\EasyCashIdentityProject.EntityLayer.csproj" />
   </ItemGroup>
 

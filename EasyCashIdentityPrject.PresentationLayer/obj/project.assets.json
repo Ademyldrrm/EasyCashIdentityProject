@@ -1309,23 +1309,6 @@
           }
         }
       },
-      "EasyCashIdentityPrject.DataAccessLayer/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "EasyCashIdentityProject.EntityLayer": "1.0.0",
-          "Microsoft.AspNetCore.Identity": "2.2.0",
-          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.16",
-          "Microsoft.EntityFrameworkCore": "6.0.16",
-          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.16"
-        },
-        "compile": {
-          "bin/placeholder/EasyCashIdentityPrject.DataAccessLayer.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/EasyCashIdentityPrject.DataAccessLayer.dll": {}
-        }
-      },
       "EasyCashIdentityPrject.DtoLayer/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1345,8 +1328,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "EasyCashIdentityPrject.DataAccessLayer": "1.0.0",
-          "EasyCashIdentityPrject.DtoLayer": "1.0.0",
+          "EasyCashIdentityProject.DataAccessLayer": "1.0.0",
+          "EasyCashIdentityProject.DtoLayer": "1.0.0",
           "EasyCashIdentityProject.EntityLayer": "1.0.0",
           "FluentValidation": "11.5.2",
           "FluentValidation.AspNetCore": "11.3.0",
@@ -1360,6 +1343,38 @@
         },
         "runtime": {
           "bin/placeholder/EasyCashIdentityProject.BusinessLayer.dll": {}
+        }
+      },
+      "EasyCashIdentityProject.DataAccessLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "EasyCashIdentityProject.EntityLayer": "1.0.0",
+          "Microsoft.AspNetCore.Identity": "2.2.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.16",
+          "Microsoft.EntityFrameworkCore": "6.0.16",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.16"
+        },
+        "compile": {
+          "bin/placeholder/EasyCashIdentityProject.DataAccessLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EasyCashIdentityProject.DataAccessLayer.dll": {}
+        }
+      },
+      "EasyCashIdentityProject.DtoLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity": "2.2.0",
+          "Microsoft.EntityFrameworkCore": "6.0.16",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.16"
+        },
+        "compile": {
+          "bin/placeholder/EasyCashIdentityProject.DtoLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EasyCashIdentityProject.DtoLayer.dll": {}
         }
       },
       "EasyCashIdentityProject.EntityLayer/1.0.0": {
@@ -3098,11 +3113,6 @@
         "version.txt"
       ]
     },
-    "EasyCashIdentityPrject.DataAccessLayer/1.0.0": {
-      "type": "project",
-      "path": "../EasyCashIdentityPrjectDAtaAccessProjectLayer/EasyCashIdentityPrject.DataAccessLayer.csproj",
-      "msbuildProject": "../EasyCashIdentityPrjectDAtaAccessProjectLayer/EasyCashIdentityPrject.DataAccessLayer.csproj"
-    },
     "EasyCashIdentityPrject.DtoLayer/1.0.0": {
       "type": "project",
       "path": "../EasyCashIdentityPrject.DtoLayer/EasyCashIdentityPrject.DtoLayer.csproj",
@@ -3113,6 +3123,16 @@
       "path": "../EasyCashIdentityProject.BusinessLayer/EasyCashIdentityProject.BusinessLayer.csproj",
       "msbuildProject": "../EasyCashIdentityProject.BusinessLayer/EasyCashIdentityProject.BusinessLayer.csproj"
     },
+    "EasyCashIdentityProject.DataAccessLayer/1.0.0": {
+      "type": "project",
+      "path": "../EasyCashIdentityPrjectDAtaAccessProjectLayer/EasyCashIdentityProject.DataAccessLayer.csproj",
+      "msbuildProject": "../EasyCashIdentityPrjectDAtaAccessProjectLayer/EasyCashIdentityProject.DataAccessLayer.csproj"
+    },
+    "EasyCashIdentityProject.DtoLayer/1.0.0": {
+      "type": "project",
+      "path": "../EasyCashIdentityPrject.DtoLayer/EasyCashIdentityProject.DtoLayer.csproj",
+      "msbuildProject": "../EasyCashIdentityPrject.DtoLayer/EasyCashIdentityProject.DtoLayer.csproj"
+    },
     "EasyCashIdentityProject.EntityLayer/1.0.0": {
       "type": "project",
       "path": "../EasyCashIdentityPrjectEntityLayer/EasyCashIdentityProject.EntityLayer.csproj",
@@ -3121,9 +3141,9 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "EasyCashIdentityPrject.DataAccessLayer >= 1.0.0",
       "EasyCashIdentityPrject.DtoLayer >= 1.0.0",
       "EasyCashIdentityProject.BusinessLayer >= 1.0.0",
+      "EasyCashIdentityProject.DataAccessLayer >= 1.0.0",
       "EasyCashIdentityProject.EntityLayer >= 1.0.0",
       "Microsoft.AspNetCore.Identity >= 2.2.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.16",
@@ -3169,8 +3189,8 @@
             "C:\\Users\\AdemYildirim\\source\\repos\\EasyCashIdentityPrject\\EasyCashIdentityPrject.DtoLayer\\EasyCashIdentityPrject.DtoLayer.csproj": {
               "projectPath": "C:\\Users\\AdemYildirim\\source\\repos\\EasyCashIdentityPrject\\EasyCashIdentityPrject.DtoLayer\\EasyCashIdentityPrject.DtoLayer.csproj"
             },
-            "C:\\Users\\AdemYildirim\\source\\repos\\EasyCashIdentityPrject\\EasyCashIdentityPrjectDAtaAccessProjectLayer\\EasyCashIdentityPrject.DataAccessLayer.csproj": {
-              "projectPath": "C:\\Users\\AdemYildirim\\source\\repos\\EasyCashIdentityPrject\\EasyCashIdentityPrjectDAtaAccessProjectLayer\\EasyCashIdentityPrject.DataAccessLayer.csproj"
+            "C:\\Users\\AdemYildirim\\source\\repos\\EasyCashIdentityPrject\\EasyCashIdentityPrjectDAtaAccessProjectLayer\\EasyCashIdentityProject.DataAccessLayer.csproj": {
+              "projectPath": "C:\\Users\\AdemYildirim\\source\\repos\\EasyCashIdentityPrject\\EasyCashIdentityPrjectDAtaAccessProjectLayer\\EasyCashIdentityProject.DataAccessLayer.csproj"
             },
             "C:\\Users\\AdemYildirim\\source\\repos\\EasyCashIdentityPrject\\EasyCashIdentityPrjectEntityLayer\\EasyCashIdentityProject.EntityLayer.csproj": {
               "projectPath": "C:\\Users\\AdemYildirim\\source\\repos\\EasyCashIdentityPrject\\EasyCashIdentityPrjectEntityLayer\\EasyCashIdentityProject.EntityLayer.csproj"
