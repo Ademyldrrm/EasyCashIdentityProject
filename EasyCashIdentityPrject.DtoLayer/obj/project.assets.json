@@ -2951,9 +2951,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\AdemYildirim\\source\\repos\\EasyCashIdentityPrject\\EasyCashIdentityPrject.DtoLayer\\EasyCashIdentityPrject.DtoLayer.csproj",
-      "projectName": "EasyCashIdentityPrject.DtoLayer",
-      "projectPath": "C:\\Users\\AdemYildirim\\source\\repos\\EasyCashIdentityPrject\\EasyCashIdentityPrject.DtoLayer\\EasyCashIdentityPrject.DtoLayer.csproj",
+      "projectUniqueName": "C:\\Users\\AdemYildirim\\source\\repos\\EasyCashIdentityPrject\\EasyCashIdentityPrject.DtoLayer\\EasyCashIdentityProject.DtoLayer.csproj",
+      "projectName": "EasyCashIdentityProject.DtoLayer",
+      "projectPath": "C:\\Users\\AdemYildirim\\source\\repos\\EasyCashIdentityPrject\\EasyCashIdentityPrject.DtoLayer\\EasyCashIdentityProject.DtoLayer.csproj",
       "packagesPath": "C:\\Users\\AdemYildirim\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\AdemYildirim\\source\\repos\\EasyCashIdentityPrject\\EasyCashIdentityPrject.DtoLayer\\obj\\",
       "projectStyle": "PackageReference",

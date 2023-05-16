@@ -2,9 +2,7 @@ C:\Users\AdemYildirim\source\repos\EasyCashIdentityPrject\EasyCashIdentityProjec
 C:\Users\AdemYildirim\source\repos\EasyCashIdentityPrject\EasyCashIdentityProject.BusinessLayer\bin\Debug\net6.0\EasyCashIdentityProject.BusinessLayer.runtimeconfig.json
 C:\Users\AdemYildirim\source\repos\EasyCashIdentityPrject\EasyCashIdentityProject.BusinessLayer\bin\Debug\net6.0\EasyCashIdentityProject.BusinessLayer.dll
 C:\Users\AdemYildirim\source\repos\EasyCashIdentityPrject\EasyCashIdentityProject.BusinessLayer\bin\Debug\net6.0\EasyCashIdentityProject.BusinessLayer.pdb
-C:\Users\AdemYildirim\source\repos\EasyCashIdentityPrject\EasyCashIdentityProject.BusinessLayer\bin\Debug\net6.0\EasyCashIdentityPrject.DataAccessLayer.dll
 C:\Users\AdemYildirim\source\repos\EasyCashIdentityPrject\EasyCashIdentityProject.BusinessLayer\bin\Debug\net6.0\EasyCashIdentityProject.EntityLayer.dll
-C:\Users\AdemYildirim\source\repos\EasyCashIdentityPrject\EasyCashIdentityProject.BusinessLayer\bin\Debug\net6.0\EasyCashIdentityPrject.DataAccessLayer.pdb
 C:\Users\AdemYildirim\source\repos\EasyCashIdentityPrject\EasyCashIdentityProject.BusinessLayer\bin\Debug\net6.0\EasyCashIdentityProject.EntityLayer.pdb
 C:\Users\AdemYildirim\source\repos\EasyCashIdentityPrject\EasyCashIdentityProject.BusinessLayer\obj\Debug\net6.0\EasyCashIdentityProject.BusinessLayer.csproj.AssemblyReference.cache
 C:\Users\AdemYildirim\source\repos\EasyCashIdentityPrject\EasyCashIdentityProject.BusinessLayer\obj\Debug\net6.0\EasyCashIdentityProject.BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
@@ -17,3 +15,7 @@ C:\Users\AdemYildirim\source\repos\EasyCashIdentityPrject\EasyCashIdentityProjec
 C:\Users\AdemYildirim\source\repos\EasyCashIdentityPrject\EasyCashIdentityProject.BusinessLayer\obj\Debug\net6.0\EasyCashIdentityProject.BusinessLayer.pdb
 C:\Users\AdemYildirim\source\repos\EasyCashIdentityPrject\EasyCashIdentityProject.BusinessLayer\obj\Debug\net6.0\EasyCashIdentityProject.BusinessLayer.genruntimeconfig.cache
 C:\Users\AdemYildirim\source\repos\EasyCashIdentityPrject\EasyCashIdentityProject.BusinessLayer\obj\Debug\net6.0\ref\EasyCashIdentityProject.BusinessLayer.dll
+C:\Users\AdemYildirim\source\repos\EasyCashIdentityPrject\EasyCashIdentityProject.BusinessLayer\bin\Debug\net6.0\EasyCashIdentityProject.DataAccessLayer.dll
+C:\Users\AdemYildirim\source\repos\EasyCashIdentityPrject\EasyCashIdentityProject.BusinessLayer\bin\Debug\net6.0\EasyCashIdentityProject.DtoLayer.dll
+C:\Users\AdemYildirim\source\repos\EasyCashIdentityPrject\EasyCashIdentityProject.BusinessLayer\bin\Debug\net6.0\EasyCashIdentityProject.DtoLayer.pdb
+C:\Users\AdemYildirim\source\repos\EasyCashIdentityPrject\EasyCashIdentityProject.BusinessLayer\bin\Debug\net6.0\EasyCashIdentityProject.DataAccessLayer.pdb

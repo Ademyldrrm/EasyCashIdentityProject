@@ -2960,9 +2960,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\AdemYildirim\\source\\repos\\EasyCashIdentityPrject\\EasyCashIdentityPrjectDAtaAccessProjectLayer\\EasyCashIdentityPrject.DataAccessLayer.csproj",
-      "projectName": "EasyCashIdentityPrject.DataAccessLayer",
-      "projectPath": "C:\\Users\\AdemYildirim\\source\\repos\\EasyCashIdentityPrject\\EasyCashIdentityPrjectDAtaAccessProjectLayer\\EasyCashIdentityPrject.DataAccessLayer.csproj",
+      "projectUniqueName": "C:\\Users\\AdemYildirim\\source\\repos\\EasyCashIdentityPrject\\EasyCashIdentityPrjectDAtaAccessProjectLayer\\EasyCashIdentityProject.DataAccessLayer.csproj",
+      "projectName": "EasyCashIdentityProject.DataAccessLayer",
+      "projectPath": "C:\\Users\\AdemYildirim\\source\\repos\\EasyCashIdentityPrject\\EasyCashIdentityPrjectDAtaAccessProjectLayer\\EasyCashIdentityProject.DataAccessLayer.csproj",
       "packagesPath": "C:\\Users\\AdemYildirim\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\AdemYildirim\\source\\repos\\EasyCashIdentityPrject\\EasyCashIdentityPrjectDAtaAccessProjectLayer\\obj\\",
       "projectStyle": "PackageReference",
