@@ -286,3 +286,7 @@ C:\Users\AdemYildirim\source\repos\EasyCashIdentityPrject\EasyCashIdentityPrject
 C:\Users\AdemYildirim\source\repos\EasyCashIdentityPrject\EasyCashIdentityPrject.PresentationLayer\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Users\AdemYildirim\source\repos\EasyCashIdentityPrject\EasyCashIdentityPrject.PresentationLayer\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\AdemYildirim\source\repos\EasyCashIdentityPrject\EasyCashIdentityPrject.PresentationLayer\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\AdemYildirim\source\repos\EasyCashIdentityPrject\EasyCashIdentityPrject.PresentationLayer\bin\Debug\net6.0\MailKit.dll
+C:\Users\AdemYildirim\source\repos\EasyCashIdentityPrject\EasyCashIdentityPrject.PresentationLayer\bin\Debug\net6.0\MimeKit.dll
+C:\Users\AdemYildirim\source\repos\EasyCashIdentityPrject\EasyCashIdentityPrject.PresentationLayer\bin\Debug\net6.0\NETCore.MailKit.dll
+C:\Users\AdemYildirim\source\repos\EasyCashIdentityPrject\EasyCashIdentityPrject.PresentationLayer\bin\Debug\net6.0\BouncyCastle.Crypto.dll

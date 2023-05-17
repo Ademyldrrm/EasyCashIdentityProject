@@ -1,8 +1,10 @@
 ﻿using EasyCashIdentityPrject.DtoLayer.Dtos.AppUserDtos;
 using EasyCashIdentityProject.EntityLayer.Concrete;
+using MailKit.Net.Smtp;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using MimeKit;
 
 namespace EasyCashIdentityProject.PresentationLayer.Controllers
 {
@@ -26,21 +28,46 @@ namespace EasyCashIdentityProject.PresentationLayer.Controllers
         {
             if (ModelState.IsValid)
             {
-                AppUser appUser = new AppUser()
-                {
+                Random random = new Random();
+                int code;
+                code = random.Next(100000, 1000000);
+				AppUser appUser = new AppUser()
+				{
                     UserName = appUserRegisterDto.Username,
                     Name = appUserRegisterDto.Name,
                     Surname = appUserRegisterDto.Surname,
                     Email = appUserRegisterDto.Email,
                     City ="aaa",
                     District = "bbb",
-                    İmageUrl = "eee"
+                    İmageUrl = "eee",
+                    ConfirmCode=random.Next(100000, 1000000),
                 };
                 var result = await _userManager.CreateAsync(appUser, appUserRegisterDto.Password);
                 if (result.Succeeded)
                 {
-                    return RedirectToAction("Index", "ConfirMail");
-                }
+					MimeMessage mimeMessage = new MimeMessage();
+					MailboxAddress mailboxAddressFrom = new MailboxAddress("Easy Cash Admin", "yldrmadem52@gmail.com");
+					MailboxAddress mailboxAddressTo = new MailboxAddress("User", appUser.Email);
+
+					mimeMessage.From.Add(mailboxAddressFrom);
+					mimeMessage.To.Add(mailboxAddressTo);
+
+					var bodyBuilder = new BodyBuilder();
+					bodyBuilder.TextBody = "Kayıt işlemini gerçekleştirmek için onay kodunuz:" + code;
+					mimeMessage.Body = bodyBuilder.ToMessageBody();
+
+					mimeMessage.Subject = "Easy Cash Onay Kodu";
+
+					SmtpClient client = new SmtpClient();
+					client.Connect("smtp.gmail.com", 587, false);
+					client.Authenticate("yldrmadem52@gmail.com", "iakgrjuoiwjdbare");
+					client.Send(mimeMessage);
+					client.Disconnect(true);
+
+					
+
+					return RedirectToAction("Index", "ConfirmMail");
+				}
                 else
                 {
 	                foreach (var item in result.Errors)
